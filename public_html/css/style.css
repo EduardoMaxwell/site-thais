@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', serif;
+}
+
+.nav{
+    background-color: #D7F9F8;
+    color: #ffffff;
+    list-style: none;
+    text-align: right;
+    padding: 10px 0 10px 0;
+}
+
+.nav > li{
+    display: inline-block;
+    padding: 0 18px 0 18px;
+
+}
+
+.nav > li > a{
+    text-decoration: none;
+    color: #585858;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.nav > li > a:hover{
+    color: #848484;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+.logo{
+    color: #585858;
+    float: left;
+    padding: 5px 0 5px 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo > a {
+    text-decoration: none;
+    color: #FFB7D2;
+}
+
+.banner{
+    width: 100%;
+    display: block;
+}
+
+.banner > .banner-imagem{
+    width: 100%;
+    display: block;
+}
+
+.botao-cadastrar {
+    background-color: #00BFFF;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.botao-cadastrar:hover{
+    background-color: #87CEFA;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+
+
+.botao-login {
+    background-color: #FF7CB0;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.botao-login:hover{
+    background-color: #FFB7D2;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+
+
+.video{
+    padding: 20px 0 0 0;
+    align: center;
+}
+
+.formulario{
+    padding: 20px 0 20px 0;
+}
+
+.form-fildset{
+    border: 2px solid pink;
+    border-radius: 10px;
+}
+
+fieldset{
+    margin: 0;
+    padding: 0;
+    padding: 10px 0 10px 0;
+}
+
+.formulario{
+    position: relative;
+    left: 37%;
+    top: 29%;
+    width: 320px;
+    height: 270px;
+}
+
+legend{
+    font-family: sans-serif;
+    font-size: 25px;
+    font-family: “Segoe UI”,”Arial”,”Times New Roman”;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.img-estilo{
+    float: left;
+    width: 320px;
+    height: 340px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
